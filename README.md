@@ -1,4 +1,4 @@
-# Metro Atlanta Housing Strategy
-## Summer 2024 Update
+# Metro Atlanta Housing Strategy Update
+<hr>
 
-This repo contains files for updating the [Metro Atlanta Housing Strategy](https://metroatlhousing.org/).
+This repo contains files for the 2024 update to the [Metro Atlanta Housing Strategy](https://metroatlhousing.org/).
