@@ -1,0 +1,21 @@
+digraph Tree {
+node [shape=box, style="filled", color="black", fontname="helvetica"] ;
+edge [fontname="helvetica"] ;
+0 [label="distance_from_core <= -0.053\nentropy = 0.89\nsamples = 156\nvalue = [48, 108]\nclass = Urban", fillcolor="#91c9f1"] ;
+1 [label="entropy = 0.0\nsamples = 100\nvalue = [0, 100]\nclass = Urban", fillcolor="#399de5"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="distance_from_core <= 0.598\nentropy = 0.592\nsamples = 56\nvalue = [48, 8]\nclass = Suburban", fillcolor="#e9965a"] ;
+0 -> 2 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+3 [label="Multi-Family Residential <= -0.475\nentropy = 0.989\nsamples = 16\nvalue = [9, 7]\nclass = Suburban", fillcolor="#f9e3d3"] ;
+2 -> 3 ;
+4 [label="entropy = 0.503\nsamples = 9\nvalue = [8, 1]\nclass = Suburban", fillcolor="#e89152"] ;
+3 -> 4 ;
+5 [label="entropy = 0.592\nsamples = 7\nvalue = [1, 6]\nclass = Urban", fillcolor="#5aade9"] ;
+3 -> 5 ;
+6 [label="Commercial Retail - Shopping Plaza, Mini-Mall <= 1.431\nentropy = 0.169\nsamples = 40\nvalue = [39, 1]\nclass = Suburban", fillcolor="#e6843e"] ;
+2 -> 6 ;
+7 [label="entropy = 0.0\nsamples = 36\nvalue = [36, 0]\nclass = Suburban", fillcolor="#e58139"] ;
+6 -> 7 ;
+8 [label="entropy = 0.811\nsamples = 4\nvalue = [3, 1]\nclass = Suburban", fillcolor="#eeab7b"] ;
+6 -> 8 ;
+}

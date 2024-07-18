@@ -1,0 +1,33 @@
+digraph Tree {
+node [shape=box, style="filled", color="black", fontname="helvetica"] ;
+edge [fontname="helvetica"] ;
+0 [label="Multi-Family Residential - 5+ units <= 0.61\nentropy = 0.762\nsamples = 95\nvalue = [74, 21]\nclass = Suburban", fillcolor="#eca571"] ;
+1 [label="distance_from_core <= -1.201\nentropy = 0.481\nsamples = 77\nvalue = [69, 8]\nclass = Suburban", fillcolor="#e89050"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="Commercial Office <= -0.283\nentropy = 0.918\nsamples = 9\nvalue = [3, 6]\nclass = Urban", fillcolor="#9ccef2"] ;
+1 -> 2 ;
+3 [label="entropy = 0.0\nsamples = 6\nvalue = [0, 6]\nclass = Urban", fillcolor="#399de5"] ;
+2 -> 3 ;
+4 [label="entropy = 0.0\nsamples = 3\nvalue = [3, 0]\nclass = Suburban", fillcolor="#e58139"] ;
+2 -> 4 ;
+5 [label="Commercial Retail - Shopping Plaza, Mini-Mall <= 0.874\nentropy = 0.191\nsamples = 68\nvalue = [66, 2]\nclass = Suburban", fillcolor="#e6853f"] ;
+1 -> 5 ;
+6 [label="entropy = 0.0\nsamples = 65\nvalue = [65, 0]\nclass = Suburban", fillcolor="#e58139"] ;
+5 -> 6 ;
+7 [label="entropy = 0.918\nsamples = 3\nvalue = [1, 2]\nclass = Urban", fillcolor="#9ccef2"] ;
+5 -> 7 ;
+8 [label="Multi-Family Residential - 5+ units <= 1.425\nentropy = 0.852\nsamples = 18\nvalue = [5, 13]\nclass = Urban", fillcolor="#85c3ef"] ;
+0 -> 8 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+9 [label="entropy = 0.0\nsamples = 7\nvalue = [0, 7]\nclass = Urban", fillcolor="#399de5"] ;
+8 -> 9 ;
+10 [label="Commercial Retail <= 0.043\nentropy = 0.994\nsamples = 11\nvalue = [5, 6]\nclass = Urban", fillcolor="#deeffb"] ;
+8 -> 10 ;
+11 [label="entropy = 0.0\nsamples = 3\nvalue = [3, 0]\nclass = Suburban", fillcolor="#e58139"] ;
+10 -> 11 ;
+12 [label="Multi-Family Residential - 5+ units <= 4.534\nentropy = 0.811\nsamples = 8\nvalue = [2, 6]\nclass = Urban", fillcolor="#7bbeee"] ;
+10 -> 12 ;
+13 [label="entropy = 0.0\nsamples = 6\nvalue = [0, 6]\nclass = Urban", fillcolor="#399de5"] ;
+12 -> 13 ;
+14 [label="entropy = 0.0\nsamples = 2\nvalue = [2, 0]\nclass = Suburban", fillcolor="#e58139"] ;
+12 -> 14 ;
+}
