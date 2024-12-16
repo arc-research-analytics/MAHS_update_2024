@@ -1,9 +1,13 @@
 digraph Tree {
 node [shape=box, style="filled", color="black", fontname="helvetica"] ;
 edge [fontname="helvetica"] ;
-0 [label="Residential   <= -1.64\nentropy = 0.414\nsamples = 36\nvalue = [33, 3]\nclass = Suburban", fillcolor="#e78c4b"] ;
-1 [label="entropy = 0.0\nsamples = 3\nvalue = [0, 3]\nclass = Urban", fillcolor="#399de5"] ;
+0 [label="Residential   <= -0.658\nentropy = 0.414\nsamples = 36\nvalue = [33, 3]\nclass = Suburban", fillcolor="#e78c4b"] ;
+1 [label="distance_from_core <= -0.853\nentropy = 0.954\nsamples = 8\nvalue = [5, 3]\nclass = Suburban", fillcolor="#f5cdb0"] ;
 0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
-2 [label="entropy = 0.0\nsamples = 33\nvalue = [33, 0]\nclass = Suburban", fillcolor="#e58139"] ;
-0 -> 2 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+2 [label="entropy = 0.0\nsamples = 3\nvalue = [0, 3]\nclass = Urban", fillcolor="#399de5"] ;
+1 -> 2 ;
+3 [label="entropy = 0.0\nsamples = 5\nvalue = [5, 0]\nclass = Suburban", fillcolor="#e58139"] ;
+1 -> 3 ;
+4 [label="entropy = 0.0\nsamples = 28\nvalue = [28, 0]\nclass = Suburban", fillcolor="#e58139"] ;
+0 -> 4 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
 }

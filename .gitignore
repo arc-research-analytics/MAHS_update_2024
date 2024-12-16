@@ -1,0 +1,14 @@
+Supervised/
+
+Data/
+
+Pickle/
+
+.DS_Store
+ARC_CTs.gpkg
+
+ClusterAnalysis.ipynb
+FinalSteps.ipynb
+ManualBinning.ipynb
+
+submarket_*.csv

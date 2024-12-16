@@ -1,0 +1,12 @@
+2018 transactions: 77,260
+2023 transactions: 46,787
+------
+2018 median home sale price: $240,000
+2023 median home sale price: $377,000
+------
+2018 median home sale price/SF: $120.06
+2023 median home sale price/SF: $196.15
+------
+2023 median building area of home sold: 1,942
+------
+2023 median year built of home sold: 1994
