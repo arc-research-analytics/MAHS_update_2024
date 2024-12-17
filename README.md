@@ -5,3 +5,5 @@ This repo contains the Python notebook used in the data analysis and aggregation
 To create the submarkets, we leveraged historic land use data from Zillow to find unique "fingerprint" proportions by Census tract in a supervised learning model to predict 2023 classifications. To this, we joined sales data from ATTOM Data Solutions and various demographic and location factors to more accurately classify each of the metro Atlanta Census tracts into one of ten submarkets.
 
 The `HousingAnalysis.ipynb` notebook walks through the above steps in much greater detail, but in order to replicate, you will need your own source data, as the raw data for the study has not been included in this repo.
+
+For questions about the methodology or data sources, please contact [Will Wright](mailto:wwright@atlantaregional.org?subject=MAHS%20Inquiry) with the Atlanta Regional Commission.
